@@ -4,8 +4,7 @@ import { FormsComponent } from './views/forms/forms.component';
 import { HomeComponent } from './views/home/home.component';
 
 const routes: Routes = [
-  { path: "", component: FormsComponent },
-  { path: "home", component: HomeComponent },
+  { path: "", component: HomeComponent },
   { path: "forms", component: FormsComponent },
 ];
 
